@@ -14,7 +14,7 @@ const authLogin = require('./auth/Login');
 // const Bank_to_bank_transfer=require('./payment/bank_to_bank_Transfer')
 
 const app = express();
-// 1. CORS (Pehle daalo)
+// 1. CORS (Pehle daal)
 app.use(cors({
   origin: process.env.CLIENT_URL || '*', // Ya 'http://localhost:3000'
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
