@@ -93,7 +93,7 @@ const Client = ({ globalSearch = "" }) => {
       name: "Help Ticket",
       type: "Help Ticket",
       viewUrl: "https://docs.google.com/spreadsheets/d/16lRhV_M1EjlZysy4KtnqIEiR3s4f213-IrJVRu6AMTM/edit?gid=1810059144#gid=1810059144",
-      url: "https://script.google.com/macros/s/AKfycbxTihDgQb6IXLRvbJMEJZRavhCoDCMdLOoobc4texHL/dev",
+      url: "https://script.google.com/a/macros/vipinchauhanassociates.com/s/AKfycbxTihDgQb6IXLRvbJMEJZRavhCoDCMdLOoobc4texHL/dev",
       email: "***",
       password: "****",
     },
@@ -398,7 +398,9 @@ const showcaseItems = [
       gradient: "from-orange-100 to-orange-200",
       hoverGradient: "from-orange-200 to-orange-300",
       textColor: "text-orange-900",
-      onClick: () => alert("Image would open here"),
+      onClick: () => {
+        window.open("/CP commission.jpg", "_blank");
+      },
     },
     {
       id: "cp-commission-pdf",
@@ -408,7 +410,9 @@ const showcaseItems = [
       gradient: "from-indigo-100 to-indigo-200",
       hoverGradient: "from-indigo-200 to-indigo-300",
       textColor: "text-indigo-900",
-      onClick: () => alert("PDF would open here"),
+      onClick: () => {
+         window.open("/CP-final.pdf", "_blank");
+      },
     },
     {
       id: "em-meeting",
