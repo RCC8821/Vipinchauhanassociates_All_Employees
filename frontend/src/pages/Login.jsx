@@ -59,7 +59,7 @@ const Login = () => {
   // --- Professional Light UI Components ---
 
   const LightSplash = () => (
-    <div className="fixed inset-0 z-[100] bg-blue-300 flex flex-col items-center justify-center">
+    <div className="fixed inset-0 z-[100] bg-blue-400 flex flex-col items-center justify-center">
       {/* Centered Circle Loader */}
       <div className="relative mb-12">
         <div className="w-24 h-24 border-[2px] border-slate-100 border-t-indigo-500 rounded-full animate-spin" />
@@ -187,3 +187,4 @@ const Login = () => {
 };
 
 export default Login;
+

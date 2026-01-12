@@ -1,9 +1,14 @@
 // src/App.jsx
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import { useSelector } from 'react-redux';
-import Login from './pages/Login';
-import Dashboard from './pages/Dashboard';
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
+import { useSelector } from "react-redux";
+import Login from "./pages/Login";
+import Dashboard from "./pages/Dashboard";
 
 
 const ProtectedRoute = ({ children }) => {
@@ -26,9 +31,10 @@ function App() {
               <Dashboard />
             </ProtectedRoute>
           }
-        >
+
           
-        
+        >
+         
         </Route>
 
         {/* Catch all unknown routes */}
